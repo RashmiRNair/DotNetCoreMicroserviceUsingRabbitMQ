@@ -1,4 +1,5 @@
-﻿using Banking.Domain.Models;
+﻿using Banking.Application.Models;
+using Banking.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,5 +10,6 @@ namespace Banking.Application.Interfaces
     {
         IEnumerable<Account> GetAccounts();
 
+        void Transfer(AccountTransfer accountTransfer );
     }
 }
