@@ -340,3 +340,5 @@ ASALocalRun/
 healthchecksdb
 /.gitattributes
 /Banking.Api/Banking.db
+/Transfer.Api/Transfer.db
+/Transfer.Api/Transfer.db.sqbpro
